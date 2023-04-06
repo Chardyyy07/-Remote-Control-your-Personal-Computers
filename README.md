@@ -50,7 +50,7 @@ remote access to personal files.
 
 ## :warning: How to Use:
 ###### Step 1 :
-Establish a connection between your phone and laptop/computer by using your phone's hotspot and connecting your laptop to it via Wi-Fi.
+Establish a connection between your phone and laptop/computer by using your phone's hotspot and connecting your laptop to it via Wi-Fi or mobile data.
 ###### Step 2 :
 Run the `RCPC.exe` file (It will create a server and will accept the request from the client android phone)
 ###### Step 3 :
@@ -63,11 +63,11 @@ Run the `RCPC.exe` file (It will create a server and will accept the request fro
 
 Client-Side Home Fragment | Client-Side Home Help Button Fragment
 :-------------------------:|:-------------------------:
-![](https://github.com/Chardyyy07/RCPC/blob/ce4509c20ffaff1ae51258c00c589652b3f02c01/Screenshots/Client-Side%20Home%20Fragment.jpg)  |  ![](https://github.com/Chardyyy07/RCPC/blob/a5ac518a21a1c4ced2126248d264d6471fd4d8af/Screenshots/Client-Side%20Home%20%20Help%20Button%20Fragment.jpg)
+![](https://github.com/Chardyyy07/Remote-Control-your-Personal-Computers/blob/fc1c33ce80bfbae98fb420103d59e8457d8547d8/Screenshots/Client-Side%20Home%20Fragment.jpg)  |  ![](https://github.com/Chardyyy07/Remote-Control-your-Personal-Computers/blob/fc1c33ce80bfbae98fb420103d59e8457d8547d8/Screenshots/Client-Side%20Home%20%20Help%20Button%20Fragment.jpg)
 
 Client-Side Mouse Fragment | Client-Side Keyboard Fragment
 :-------------------------:|:-------------------------:
-![](https://github.com/Chardyyy07/RCPC/blob/22ce23c84139b4846504b7d826949209cee2c5cc/Screenshots/Client-Side%20Mouse%20Fragment.jpg)  |  ![](https://github.com/Chardyyy07/RCPC/blob/fc14c4161829f2e68b756068b8e97579eb7f1734/Screenshots/Client-Side%20Keyboard%20Fragment.jpg)
+![](https://github.com/Chardyyy07/Remote-Control-your-Personal-Computers/blob/fc1c33ce80bfbae98fb420103d59e8457d8547d8/Screenshots/Client-Side%20Mouse%20Fragment.jpg)  |  ![](https://github.com/Chardyyy07/Remote-Control-your-Personal-Computers/blob/fc1c33ce80bfbae98fb420103d59e8457d8547d8/Screenshots/Client-Side%20Keyboard%20Fragment.jpg)
 
 The Client is an Android app that establishes a socket connection with a server at a given IP address and port. It does this by creating an instance of the Connection class, which extends the AsyncTask class to perform network operations in the background thread. The doInBackground method of this class creates a socket connection with the given IP address and port, and the onPostExecute method updates a boolean flag to indicate whether the connection was successful or not. This app is likely used to control the mouse, keyboard of the server Computer remotely.
 
