@@ -17,7 +17,7 @@ remote access to personal files.
     
     
 <h1 align="center">
-  <img src="https://github.com/Chardyyy07/RCPC/blob/a5367a31a8cf15767d4f56e1660658dcd05a338e/Server(RCPC)/RCPC%20SERVER/logo.jpg" width="224px"/><br/>
+  <img src="https://github.com/Chardyyy07/-Remote-Control-your-Personal-Computers/blob/b40d5b03e9e7e55a436181d0505675d6d467aff4/Server(RCPC)/RCPC%20SERVER/logo.jpg" width="224px"/><br/>
   RCPC: Innovative Remote-Control Solution for Personal Computers
 </h1>
 <p align="center"><b>You can use your Android phone to remotely control your laptop or computer as long as both devices are connected to the same network.</b></p>
