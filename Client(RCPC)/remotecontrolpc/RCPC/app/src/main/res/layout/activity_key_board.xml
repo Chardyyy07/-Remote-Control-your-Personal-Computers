@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Keyboard_Fragment.KeyBoard">
+
+    <Button
+        android:id="@+id/backSpace"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="#272727"
+        android:drawableLeft="@drawable/baseline_backspace_07"
+        android:text="DEL"
+        android:textColor="#ffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"></Button>
+
+    <Button
+        android:id="@+id/clearAll"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#272727"
+        android:drawableLeft="@drawable/baseline_clear_all_07"
+        android:text="CA"
+        android:textColor="#ffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"></Button>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="246dp"
+        android:layout_height="21dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#272727"
+        android:text="Type the text in the area below"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714"></TextView>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:hint="Enter the text"
+        android:textColorHint="#ffff"
+        android:textColor="#ffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></EditText>
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#272727"
+        android:drawableLeft="@drawable/ic_baseline_arrow_circle_up_24"
+        android:text="Enter"
+        android:textColor="#ffff"
+        app:layout_constraintEnd_toStartOf="@+id/backSpace"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toEndOf="@+id/clearAll"
+        app:layout_constraintTop_toBottomOf="@+id/editText"></Button>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/white"
+        app:itemIconTint="#ffffff"
+        app:itemTextColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
